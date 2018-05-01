@@ -1,4 +1,5 @@
-A [Kemal](http://kemalcr.com/) and [Clear](https://github.com/anykeyh/clear/wiki/getting_started) based API application.
+A [Kemal](http://kemalcr.com/) and [Clear](https://github.com/anykeyh/clear/wiki/getting_started) based Todoapp API application.
+Frontend can be found [here](https://github.com/Prutya/todoapp-ui).
 
 ## Prepare
 * Install [Crystal](https://crystal-lang.org/docs/installation/)
