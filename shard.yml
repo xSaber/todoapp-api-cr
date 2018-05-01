@@ -1,0 +1,17 @@
+name: todo_app
+version: 0.1.0
+
+authors:
+  - Anton Prudkohliad <anton.prudkohliad@gmail.com>
+
+targets:
+  todo_app:
+    main: src/todo_app.cr
+
+crystal: 0.24.2
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+license: MIT
