@@ -1,10 +1,12 @@
-class TodoGroup
-  include Clear::Model
-  self.table = "todo_groups"
+module TodoApp
+  class TodoGroup
+    include Clear::Model
+    self.table = "todo_groups"
 
-  with_serial_pkey
+    with_serial_pkey
 
-  column title : String
+    column title : String
 
-  has_many todos : Todo
+    has_many todos : Todo
+  end
 end
