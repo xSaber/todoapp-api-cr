@@ -1,5 +1,21 @@
 version: 1.0
 shards:
+  clear:
+    github: anykeyh/clear
+    commit: bd95fa691ee9b88361fab2d5b6779f5ddd91254e
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.5.0
+
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: 0.1.0
+
+  inflector:
+    github: phoffer/inflector.cr
+    version: 0.1.8
+
   kemal:
     github: kemalcr/kemal
     version: 0.22.0
@@ -8,7 +24,10 @@ shards:
     github: jeromegn/kilt
     version: 0.4.0
 
+  pg:
+    github: will/crystal-pg
+    version: 0.14.1
+
   radix:
     github: luislavena/radix
     version: 0.3.8
-

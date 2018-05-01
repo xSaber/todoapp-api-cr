@@ -11,6 +11,10 @@ targets:
 crystal: 0.24.2
 
 dependencies:
+  clear:
+    github: anykeyh/clear
+  dotenv:
+    github: gdotdesign/cr-dotenv
   kemal:
     github: kemalcr/kemal
 
