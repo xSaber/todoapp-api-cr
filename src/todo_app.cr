@@ -18,6 +18,7 @@ end
 module TodoApp
   get "/todo-groups" { |env| TodoGroupsHandler.new.index(env) }
   post "/todo-groups" { |env| TodoGroupsHandler.new.create(env) }
+  get "/todo-groups/:id/todos" { |env| TodosHandler.new.index(env) }
 end
 
 Kemal.run(ENV["PORT"].to_i)
