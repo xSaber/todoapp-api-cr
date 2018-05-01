@@ -40,4 +40,4 @@ post "/todo-groups" do |env|
   })
 end
 
-Kemal.run
+Kemal.run(ENV["PORT"].to_i)
