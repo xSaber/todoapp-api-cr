@@ -1,3 +1,5 @@
+A [Kemal](http://kemalcr.com/) and [Clear](https://github.com/anykeyh/clear/wiki/getting_started) based API application.
+
 ## Prepare
 * Install [Crystal](https://crystal-lang.org/docs/installation/)
 * Install [Shards](https://github.com/crystal-lang/shards) (Shards is usually distributed with Crystal itself)
